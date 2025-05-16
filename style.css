@@ -1,0 +1,174 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header.cabeçario {
+    background-color: #D41920;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 15px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+.conteudo img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos Títulos de Destaque */
+.titulos {
+    background-color: #ffffff;
+    border-left: 5px solid #D41920;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.titulos:hover {
+    transform: scale(1.02);
+}
+
+.titulos h2 {
+    color: #D41920;
+    margin-bottom: 15px;
+    font-size: 24px;
+    border-bottom: 2px solid #D41920;
+    display: inline-block;
+}
+
+.titulos ul {
+    margin-left: 20px;
+    color: #555;
+    line-height: 1.8em;
+}
+
+.titulos ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+/* Estilo dos Ídolos */
+.idolos {
+    background-color: #ffffff;
+    border-left: 5px solid #D41920;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.idolos:hover {
+    transform: scale(1.02);
+}
+
+.idolos h2 {
+    color: #D41920;
+    margin-bottom: 15px;
+    font-size: 24px;
+    border-bottom: 2px solid #D41920;
+    display: inline-block;
+}
+
+.idolos p {
+    margin-bottom: 15px;
+    color: #444;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+.idolos ul {
+    margin-left: 20px;
+    color: #555;
+    line-height: 1.8em;
+}
+
+.idolos ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.idolos ul li strong {
+    color: #D41920;
+}
+
+/* Rodapé */
+footer {
+    background-color: #D41920;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rodape {
+    margin: 0;
+}
+
+.destaques{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.destaqueArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
